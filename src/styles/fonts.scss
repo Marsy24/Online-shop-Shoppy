@@ -1,16 +1,48 @@
 // Подключение шрифтов, так же нужно подключить шрифты в html для preload
 @font-face {
-  font-family: "Inter";
+  font-family: "Integral-CF";
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: bold;
+  src: url("../fonts/Integral-CF_bold.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Satoshi-bold";
   font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: bold;
+  src: url("../fonts/Satoshi-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi-bold-italic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Satoshi-BoldItalic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi-medium-italic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Satoshi-MediumItalic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi-medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Satoshi-Regular.woff2") format("woff2");
   font-display: swap;
 }
