@@ -7,7 +7,6 @@ export default {
   ignoreFiles: [
     "**/node_modules/**",
     "**/dist/**",
-    "**/dist/**",
     "**/coverage/**",
     "**/*.log",
     "**/npm-debug.log*",
@@ -18,6 +17,7 @@ export default {
   ],
   extends: ["stylelint-config-standard-scss", "stylelint-config-recess-order"],
   rules: {
+    // SCSS-specific rules
     "at-rule-empty-line-before": [
       "always",
       {
@@ -28,6 +28,8 @@ export default {
     ],
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
+
+    // Colors and values
     "declaration-no-important": true,
     "color-function-notation": null,
     "alpha-value-notation": null,
