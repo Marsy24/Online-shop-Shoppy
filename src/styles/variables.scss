@@ -1,22 +1,17 @@
 :root {
-  --color-white: #ffffff;
-  --color-black: #000000;
-  
-  --color-text-primary: #000000;
-  --color-text-inverse: #ffffff;
-  
-  --color-bg-primary: #ffffff;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-text-primary: #000;
+  --color-text-inverse: #fff;
+  --color-bg-primary: #fff;
   --color-bg-secondary: #f0f0f0;
   --color-bg-card: #f0eded;
   --color-bg-hero: #f2f0f2;
-  
   --color-star: #ffc733;
-  --color-badge-discount: #ff3333;
-  
+  --color-badge-discount: #f33;
   --color-icon-success: #03ab30;
   --color-icon-link: #1433cc;
   --color-icon-dark: #000008;
-  
   --color-swatch-yellow: #f5de05;
   --color-swatch-orange: #f57805;
   --color-swatch-red: #f50505;
@@ -27,23 +22,17 @@
   --color-swatch-brown: #4f4530;
   --color-swatch-teal: #304f4a;
   --color-swatch-navy: #30334f;
-  
   --border: 1px solid var(--color-black);
   --border-light: 1px solid #e0e0e0;
-  
   --font-family: "Inter", sans-serif;
-  
   --container-width: #{fluid-to-laptop($container-desktop-width, $container-laptop-width)};
   --container-padding-x: 16px;
-  
   --transition-duration: 0.3s;
   --transition-timing: ease-in-out;
-  
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
-  --shadow-focus: 0 0 0 3px rgba(255, 199, 51, 0.4);
-  
+  --shadow-sm: 0 2px 4px rgb(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgb(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 16px rgb(0, 0, 0, 0.15);
+  --shadow-focus: 0 0 0 3px rgb(255, 199, 51, 0.4);
   --z-index-dropdown: 100;
   --z-index-modal: 1000;
   --z-index-tooltip: 1100;
@@ -51,20 +40,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text-primary: #ffffff;
-    --color-text-inverse: #000000;
+    --color-text-primary: #fff;
+    --color-text-inverse: #000;
     --color-bg-primary: #121212;
     --color-bg-secondary: #1e1e1e;
     --color-bg-card: #2a2a2a;
     --color-bg-hero: #1a1a1a;
     --color-star: #ffc733;
-    --color-badge-discount: #ff5555;
+    --color-badge-discount: #f55;
     --color-icon-success: #3acf5e;
     --color-icon-link: #3c5cff;
     --color-icon-dark: #a0a0a0;
     --color-swatch-yellow: #f5de05;
     --color-swatch-orange: #f57805;
-    --color-swatch-red: #ff5555;
+    --color-swatch-red: #f55;
     --color-swatch-cyan: #05c9f5;
     --color-swatch-blue: #3c5cff;
     --color-swatch-purple: #9b5cff;
@@ -72,30 +61,30 @@
     --color-swatch-brown: #8b7355;
     --color-swatch-teal: #4a9f97;
     --color-swatch-navy: #5a6c8f;
-    --border: 1px solid #333333;
+    --border: 1px solid #333;
     --border-light: 1px solid #404040;
-    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
-    --shadow-focus: 0 0 0 3px rgba(255, 199, 51, 0.6);
+    --shadow-sm: 0 2px 4px rgb(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 8px rgb(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 16px rgb(0, 0, 0, 0.5);
+    --shadow-focus: 0 0 0 3px rgb(255, 199, 51, 0.6);
   }
 }
 
 html.dark-theme {
-  --color-text-primary: #ffffff;
-  --color-text-inverse: #000000;
+  --color-text-primary: #fff;
+  --color-text-inverse: #000;
   --color-bg-primary: #121212;
   --color-bg-secondary: #1e1e1e;
   --color-bg-card: #2a2a2a;
   --color-bg-hero: #1a1a1a;
   --color-star: #ffc733;
-  --color-badge-discount: #ff5555;
+  --color-badge-discount: #f55;
   --color-icon-success: #3acf5e;
   --color-icon-link: #3c5cff;
   --color-icon-dark: #a0a0a0;
   --color-swatch-yellow: #f5de05;
   --color-swatch-orange: #f57805;
-  --color-swatch-red: #ff5555;
+  --color-swatch-red: #f55;
   --color-swatch-cyan: #05c9f5;
   --color-swatch-blue: #3c5cff;
   --color-swatch-purple: #9b5cff;
@@ -103,10 +92,10 @@ html.dark-theme {
   --color-swatch-brown: #8b7355;
   --color-swatch-teal: #4a9f97;
   --color-swatch-navy: #5a6c8f;
-  --border: 1px solid #333333;
+  --border: 1px solid #333;
   --border-light: 1px solid #404040;
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
-  --shadow-focus: 0 0 0 3px rgba(255, 199, 51, 0.6);
+  --shadow-sm: 0 2px 4px rgb(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgb(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 16px rgb(0, 0, 0, 0.5);
+  --shadow-focus: 0 0 0 3px rgb(255, 199, 51, 0.6);
 }

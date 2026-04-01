@@ -1,12 +1,13 @@
 body {
-  transition: background-color var(--transition-duration) var(--transition-timing),
-              color var(--transition-duration) var(--transition-timing);
+  transition:
+    background-color var(--transition-duration) var(--transition-timing),
+    color var(--transition-duration) var(--transition-timing);
 }
 
 .container {
   max-width: var(--container-width);
-  margin: 0 auto;
   padding: 0 var(--container-padding-x);
+  margin: 0 auto;
 }
 
 :focus-visible {
@@ -18,6 +19,7 @@ body {
 }
 
 .is-hidden {
+  /* stylelint-disable-next-line declaration-no-important */
   display: none !important;
 }
 
@@ -33,22 +35,23 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: var(--color-star);
   border-radius: 4px;
-  
+
   &:hover {
     background-color: var(--color-badge-discount);
   }
 }
 
 ::selection {
-  background-color: var(--color-star);
   color: var(--color-text-inverse);
+  background-color: var(--color-star);
 }
 
 * {
-  transition: background-color var(--transition-duration) var(--transition-timing),
-              color var(--transition-duration) var(--transition-timing),
-              border-color var(--transition-duration) var(--transition-timing),
-              box-shadow var(--transition-duration) var(--transition-timing);
+  transition:
+    background-color var(--transition-duration) var(--transition-timing),
+    color var(--transition-duration) var(--transition-timing),
+    border-color var(--transition-duration) var(--transition-timing),
+    box-shadow var(--transition-duration) var(--transition-timing);
 }
 
 button {
