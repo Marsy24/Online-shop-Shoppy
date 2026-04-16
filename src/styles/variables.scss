@@ -1,6 +1,6 @@
 :root {
-  --color-white: #fff;
-  --color-black: #000;
+  --color-secondary: #fff;
+  --color-main: #000;
   --color-text-primary: #000;
   --color-text-inverse: #fff;
   --color-bg-primary: #fff;
@@ -22,7 +22,7 @@
   --color-swatch-brown: #4f4530;
   --color-swatch-teal: #304f4a;
   --color-swatch-navy: #30334f;
-  --border: 1px solid var(--color-black);
+  --border: 1px solid var(--color-main);
   --border-light: 1px solid #e0e0e0;
   --font-family: "Inter", sans-serif;
   --container-width: #{fluid-to-laptop($container-desktop-width, $container-laptop-width)};

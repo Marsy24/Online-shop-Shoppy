@@ -52,6 +52,7 @@ body {
     color var(--transition-duration) var(--transition-timing),
     border-color var(--transition-duration) var(--transition-timing),
     box-shadow var(--transition-duration) var(--transition-timing);
+  transition-duration: --transition-duration;
 }
 
 button {
